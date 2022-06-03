@@ -21,5 +21,5 @@ from MiniNewsApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.Home, name = 'home'),
-    path('/About', views.About, name='About')
+    path('/ADDBLogs', views.AddBlog, name='AddBlog')
 ]
