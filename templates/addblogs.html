@@ -1,6 +1,11 @@
-{% extends 'base.html' %}
-
-{% block tittle %}ADD a Blog{% endblock tittle %}
-
-{% block code %}
-<h1>sljdlsjfls</h1>{% endblock code %}
+{% extends 'base.html' %} {% block tittle %}ADD a Blog{% endblock tittle %} {%
+block code %}
+<div class="container">
+  <h1 class="fw-bold py-4">Add Your Blog</h1>
+  <form method="post">
+    {% csrf_token %} {{ Form}}
+    <input type="submit" value="Submit" class="btn btn-success my-2" />
+    <input type="reset" value="Reset" class="btn btn-danger my-2" />
+  </form>
+</div>
+{% endblock code %}

@@ -18,4 +18,4 @@ def AddBlog(request):
             Form.save()
             messages.success(request, 'Your Blogs has been added successfully')
             return redirect('AddBlog')
-    return render(request, 'addblogs.html')
+    return render(request, 'addblogs.html', {'Form':Form})
