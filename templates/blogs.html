@@ -1,0 +1,24 @@
+
+{% extends 'base.html' %}
+
+{% block tittle %}BLogs{% endblock tittle %}
+
+{% block code %}
+<h1 class='fw-bold text-center py-4'>Latest BLogs</h1>
+
+<div class="container">
+    {% for blog in BLogs %}
+    <div class="card">
+        <div class="card-header fw-bold bg-dark text-white">
+          {{blog.Blog_Tittle}} Blog
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">AuthorName: {{blog.Blog_AuthorName}}</h2>
+          <h3 class="card-text">{{blog.Blog_Description}}</h3>
+        </div>
+      </div>
+      {% endfor %}
+</div>
+
+
+{% endblock code %}

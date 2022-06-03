@@ -18,4 +18,9 @@ def AddBlog(request):
             Form.save()
             messages.success(request, 'Your Blogs has been added successfully')
             return redirect('AddBlog')
-    return render(request, 'addblogs.html', {'Form':Form})
+    return render(request, 'addblogs.html', {'Form': Form})
+
+
+def BLogs(request):
+    BLogs = Blogs.objects.all()
+    return render(request, 'blogs.html', {'BLogs': BLogs})
