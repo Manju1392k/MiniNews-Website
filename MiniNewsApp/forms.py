@@ -12,6 +12,6 @@ class FormBlog(ModelForm):
     Blog_Tittle = forms.CharField(
         widget=forms.TextInput(attrs={'class': 'form-control'}))
     Blog_Description = forms.CharField(
-        widget=forms.TextInput(attrs={'class': 'form-control'}))
+        widget=forms.Textarea(attrs={'class': 'form-control'}))
     Blog_AuthorName = forms.CharField(
         widget=forms.TextInput(attrs={'class': 'form-control'}))
