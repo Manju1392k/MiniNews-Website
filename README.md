@@ -19,6 +19,19 @@ https://user-images.githubusercontent.com/66934377/171908043-7f905647-317b-4b20-
 
 ---
 
+# Superuser Details
+
+* The superuser account is used for to **Access the DataBase**
+
+* The username and password for django admin panel
+
+| Username & Password |
+| ------------- | 
+| Username: manju1392|
+| Password: 123456|
+
+---
+
 # 🗂️ Framework & Languages
 
 * The Below Table Framework&Language's is used in this project. To run this Project. This framework&Language's has been installed in
