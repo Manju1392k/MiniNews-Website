@@ -19,6 +19,14 @@ https://user-images.githubusercontent.com/66934377/171908043-7f905647-317b-4b20-
 
 ---
 
+# ⏲️ Time Added in MiniNews Website
+
+* ### I Created Time Model but forget to add it. Now I added Time Model to Blog.
+
+https://user-images.githubusercontent.com/66934377/172359149-8dfce485-070e-41ea-8194-dfdf62690fee.mp4
+
+---
+
 # Superuser Details
 
 * The superuser account is used for to **Access the DataBase**
