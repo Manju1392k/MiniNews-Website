@@ -35,7 +35,7 @@ https://user-images.githubusercontent.com/66934377/172359149-8dfce485-070e-41ea-
 
 | Username & Password |
 | ------------- | 
-| Username: manju1392|
+| Username: manju1392k|
 | Password: 123456|
 
 ---
